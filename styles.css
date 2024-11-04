@@ -1,0 +1,89 @@
+/* Reset and Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #4CAF50;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.header .note {
+  font-size: 0.9em;
+  color: #f1f1f1;
+  margin-top: 5px;
+}
+
+.menu-section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+}
+
+.menu-section h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.menu-category {
+  margin-top: 10px;
+}
+
+.menu-category h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.menu-category p {
+  padding: 5px 0;
+  font-size: 1em;
+  color: #555;
+  border-bottom: 1px dotted #ddd;
+}
+
+/* Scroll Button */
+#scrollUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
