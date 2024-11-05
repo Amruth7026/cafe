@@ -1,8 +1,8 @@
 /* General Body Styling */
 body {
-  background: #f3f8cf;
+  background-color: #2d2d2d;  /* Dark gray/black background */
+  color: #ffffff;  /* White text for readability */
   font-family: Arial, sans-serif;
-  color: #333;
   padding-bottom: 50px;
 }
 
@@ -10,8 +10,8 @@ body {
 .header {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(90deg, #ff9a8b, #fecfef);
-  color: white;
+  background: #4c4c4c;  /* Slightly lighter gray */
+  color: #ffffff;
 }
 
 .header h1 {
@@ -22,18 +22,16 @@ body {
   font-size: 1.2rem;
   margin-bottom: 0;
 }
-
-.header .note {
-  font-style: italic;
+.head{
+  background-color: #a4c639;
 }
-
 /* Section Titles */
 .menu-section {
   margin: 30px auto;
   padding: 20px;
   border-radius: 8px;
-  background: linear-gradient(90deg, #b3ffab, #f8b7e2);
-  color: #333;  /* Updated to darker text for readability */
+  background: #3a3a3a;  /* Dark background for section */
+  color: #ffffff;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,29 +39,29 @@ body {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #111110;  /* Light green accent color */
 }
 
 /* Menu Category Cards */
 .menu-category {
-  background: linear-gradient(60deg, #7df7dc, #d88af7);
+  background: #333333;  /* Dark gray card background */
   padding: 15px;
   margin: 15px 0;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  color: #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
 }
 
 .menu-category h3 {
   font-size: 1.5rem;
-  color: #5f9ea0;  /* Soft teal color for headings */
+  color: #a4c639;  /* Light green for category headings */
   margin-bottom: 10px;
 }
 
 .menu-category p {
   margin: 5px 0;
   font-size: 1rem;
-  color: #555;  /* Softer dark gray for readability */
+  color: #cccccc;  /* Light gray for paragraph text */
 }
 
 /* Scroll Up Button */
@@ -71,7 +69,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #87e4d4;
+  background-color: #a4c639;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -82,25 +80,25 @@ body {
 }
 
 #scrollUpBtn:hover {
-  background-color: #b3ffab;
+  background-color: #8fb52b;
 }
 
 /* Button Styling */
 .btn-primary {
-  background-color: #ff9a8b;
+  background-color: #a4c639;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #fecfef;
+  background-color: #8fb52b;
 }
 
 .btn-outline-light {
-  border-color: #fff;
-  color: #fff;
+  border-color: #a4c639;
+  color: #a4c639;
 }
 
 .btn-outline-light:hover {
-  background-color: #fff;
-  color: #ff9a8b;
+  background-color: #a4c639;
+  color: #ffffff;
 }
