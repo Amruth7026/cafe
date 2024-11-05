@@ -1,89 +1,106 @@
-/* Reset and Basic Styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
+/* General Body Styling */
 body {
-  background-color: #f4f4f4;
+  background: #f3f8cf;
+  font-family: Arial, sans-serif;
   color: #333;
+  padding-bottom: 50px;
 }
 
+/* Header Styling */
 .header {
   text-align: center;
   padding: 20px;
-  background: #4CAF50;
-  color: #fff;
+  background: linear-gradient(90deg, #ff9a8b, #fecfef);
+  color: white;
 }
 
 .header h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
 .header .note {
-  font-size: 0.9em;
-  color: #f1f1f1;
-  margin-top: 5px;
+  font-style: italic;
 }
 
+/* Section Titles */
 .menu-section {
+  margin: 30px auto;
   padding: 20px;
-  margin: 10px auto;
-  max-width: 800px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 1s ease-out;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #b3ffab, #f8b7e2);
+  color: #333;  /* Updated to darker text for readability */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .menu-section h2 {
-  color: #4CAF50;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
 }
 
+/* Menu Category Cards */
 .menu-category {
-  margin-top: 10px;
+  background: linear-gradient(60deg, #7df7dc, #d88af7);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
 }
 
 .menu-category h3 {
-  font-size: 1.2em;
-  color: #333;
-  margin-bottom: 5px;
+  font-size: 1.5rem;
+  color: #5f9ea0;  /* Soft teal color for headings */
+  margin-bottom: 10px;
 }
 
 .menu-category p {
-  padding: 5px 0;
-  font-size: 1em;
-  color: #555;
-  border-bottom: 1px dotted #ddd;
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;  /* Softer dark gray for readability */
 }
 
-/* Scroll Button */
+/* Scroll Up Button */
 #scrollUpBtn {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none;
-  padding: 10px;
-  font-size: 18px;
-  background-color: #4CAF50;
-  color: #fff;
+  background-color: #87e4d4;
+  color: white;
   border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
   border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  animation: fadeIn 1s ease-in;
 }
 
-/* Animations */
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+#scrollUpBtn:hover {
+  background-color: #b3ffab;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Button Styling */
+.btn-primary {
+  background-color: #ff9a8b;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #fecfef;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #ff9a8b;
 }
